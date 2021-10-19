@@ -3,8 +3,11 @@
 # Live-Link : https://ass-10-by-jannatulfardous.web.app
 
 
-### Deployment
+# Deployment
  Deployed in Firebase.
+ 
+ # Type 
+ Health care related web. 
 
 # Package
 Packages I used for the ptoject :
