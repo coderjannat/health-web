@@ -24,11 +24,21 @@ const LogPage = () => {
 
   return (
     <div className="">
-      <h1 className="text-center">Log In </h1>
+      <h1 className="text-center mt-5">Log In </h1>
       <div className="row ">
+      <div className="login-btn mt-4 d-flex justify-content-center">
+              <p className="mt-2 me-2 text-center"> Sign in with </p>
+
+              <Link
+                onClick={handleGoogleLogin}
+                className="">
+                <FcGoogle size={40} />
+              </Link>
+            </div>
+            <p>or</p>
         <div className="col-md-12">
           <div>
-            <div className="form-input mt-5 ms-5 ">
+            <div className="form-input  ms-5 ">
               <input
                 onChange={hanldeEmail}
                 className=" pt-2 pb-2 ps-5 pe-5 ms-5"
@@ -50,15 +60,7 @@ const LogPage = () => {
                 </button>
               </div>
             </div>
-            <div className="login-btn mt-4 d-flex justify-content-center">
-              <p className="mt-2 me-2"> Sign in with </p>
-
-              <Link
-                onClick={handleGoogleLogin}
-                className="btn btn-warning mb-2">
-                <FcGoogle />
-              </Link>
-            </div>
+            
           </div>
         </div>
      

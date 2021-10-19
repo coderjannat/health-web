@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import LogPage from "../Login/LogPage/LogPage";
 import Register from "../Register/Register";
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 
 const LogAndRegistration = () => {
   const [toggle, setToggle] = useState(false);
@@ -15,13 +16,16 @@ const LogAndRegistration = () => {
           {toggle ? <Register></Register> : <LogPage></LogPage>}
 
           {toggle ? (
+           <Link>
             <p onClick={() => setToggle(false)} className="text-primary pe-auto">
               Already have an account ?
             </p>
+           </Link>
           ) : (
+           <Link>
             <p onClick={() => setToggle(true)} className="text-primary pe-auto ">
               Are you new? please register!!  
-            </p>
+            </p></Link>
           )}
         </div>
         <div className="col-md-6">
