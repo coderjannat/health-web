@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Herbal Cinkara Syrup ",
+        "price": "180",
+        "description": "This herbal multivitamin syrup is a non-alcoholic vitaminised herbal tonic of proven bioavailability in mental performance, anemia of pregnancy",
+        "img": "https://www.genericure.in/image/catalog/product_images/Hamdard%20cinkara%20syrup%20pack%20of%202.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Acteria Capsule ",
+        "price": "100",
+        "description": "It reduces gastrointestinal pH through stimulation of lactic-acid-producing bacteria; provide a direct antagonistic action on gastrointestinal pathogens.",
+        "img": "https://www.jabsbiotech.com/wp-content/uploads/2018/05/Mypra-1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Adova Capsule",
+        "price": "150",
+        "description": "Adova Capsule is used alone or with other treatments, such as surgery or radiation, to treat early breast cancer in postmenopausal women.",
+        "img": "https://cdn.osudpotro.com/medicine/1605070790625.png"
+    },
+    {
+        "id": 4,
+        "name": "Napa Tablet 500 mg",
+        "price": "180",
+        "description": " It dissolves up to five times faster than standard Paracetamol tablets. It is a fast acting and safe analgesic ",
+        "img": "https://squarepharma.com.bd/products/FEXO-120.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Calbo-D ",
+        "price": "100",
+        "description": "The well balanced formula helps to maintain strong bones and teeth as well as the health of the heart, muscles and nerves.",
+        "img": "https://emedi.com.bd/wp-content/uploads/2020/09/Calbo-D.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Fexo 120",
+        "price": "300",
+        "description": "Fexofenadine Hydrochloride is indicated for the relief of symptoms associated with seasonal allergic rhinitis in adults and children.",
+        "img": "https://squarepharma.com.bd/products/FEXO-120.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Herbal Cinkara Syrup ",
+        "price": "180",
+        "description": "This herbal multivitamin syrup is a non-alcoholic vitaminised herbal tonic of proven bioavailability in mental performance, anemia of pregnancy",
+        "img": "https://www.genericure.in/image/catalog/product_images/Hamdard%20cinkara%20syrup%20pack%20of%202.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Acteria Capsule ",
+        "price": "100",
+        "description": "It reduces gastrointestinal pH through stimulation of lactic-acid-producing bacteria; provide a direct antagonistic action on gastrointestinal pathogens.",
+        "img": "https://www.jabsbiotech.com/wp-content/uploads/2018/05/Mypra-1.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Adova Capsule",
+        "price": "150",
+        "description": "Adova Capsule is used alone or with other treatments, such as surgery or radiation, to treat early breast cancer in postmenopausal women.",
+        "img": "https://cdn.osudpotro.com/medicine/1605070790625.png"
+    }
+]
