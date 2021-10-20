@@ -12,7 +12,7 @@ const LogAndRegistration = () => {
   return (
     <div className="App container ">
       <div className="row">
-        <div className="login-area col-md-6">
+        <div className="login-area col-md-12">
           {toggle ? <Register></Register> : <LogPage></LogPage>}
 
           {toggle ? (
@@ -28,15 +28,7 @@ const LogAndRegistration = () => {
             </p></Link>
           )}
         </div>
-        <div className="col-md-6">
-          <div className="img">
-            {/* <img
-              className="image-fluid w-100"
-              src="https://i.ibb.co/wB5md78/undraw-Mobile-login-re-9ntv.png"
-              alt=""
-            /> */}
-          </div>
-        </div>
+       
       </div>
     </div>
   );
