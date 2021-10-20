@@ -1,14 +1,13 @@
 import React from 'react';
 import { Link, useLocation, useHistory } from 'react-router-dom';
-
-
 import useAuth from '../hooks/useAuth';
 import './Logpage.css';
 import { FcGoogle } from 'react-icons/fc';
 
 
+
 const LogPage = () => {
-  const { signInUsingGoogle, hanldeEmail, hanldePassword, handleLogin } = useAuth();
+  const { signInUsingGoogle, hanldeEmail, hanldePassword, handleUserLogin  } = useAuth();
   
   const location = useLocation();
   const history = useHistory();
@@ -22,8 +21,18 @@ const LogPage = () => {
           })
   }
 
+  
+  const handleLogin = () => {
+    handleUserLogin ()
+          .then(result => {
+              history.push(redirect_url);
+          })
+  }
+
   return (
+    
     <div className="">
+      
       <h1 className="text-center mt-5">Log In </h1>
       <div className="row ">
       <div className="login-btn mt-4 d-flex justify-content-center">
@@ -37,34 +46,33 @@ const LogPage = () => {
             </div>
             <p>or</p>
         <div className="col-md-12">
-          <div>
-            <div className="form-input  ms-5 ">
+        <form onSubmit={handleLogin}>
               <input
                 onChange={hanldeEmail}
-                className=" pt-2 pb-2 ps-5 pe-5 ms-5"
+                className="input-felid"
                 type="email"
-                placeholder="Email"
+                name="email"
+                placeholder="Enter your Email"
               />
               <br />
               <input
                 onChange={hanldePassword}
-                className="pt-2 pb-2 ps-5 pe-5 ms-5 mt-2"
+                className="input-felid"
                 type="password"
-                placeholder="Password"
+                name="password"
+                placeholder="Enter your Password"
               />
               <br />
-              <div className="login-regiater-btn mt-4">
-
-                <button onClick={handleLogin} className="btn btn-success ms-5">
-                  Login
-                </button>
-              </div>
-            </div>
-            
-          </div>
+              <input
+                className="mt-3 w-50 btn btn-success m-auto"
+                type="submit"
+                value="Login"
+              />
+            </form>
         </div>
      
       </div>
+      
     </div>
 
   );
